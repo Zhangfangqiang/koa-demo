@@ -1,0 +1,42 @@
+{
+  "name": "koa-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cross-env DEBUG=app:wepay nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/router": "^10.0.0",
+    "art-template": "^4.13.2",
+    "babel-runtime": "^6.26.0",
+    "casual": "^1.6.2",
+    "crypto": "^1.0.1",
+    "ejs": "^3.1.6",
+    "html-minifier": "^4.0.0",
+    "koa": "^2.13.1",
+    "koa-art-template": "^1.1.1",
+    "koa-body": "^4.2.0",
+    "koa-jwt": "^4.0.1",
+    "koa-logger": "^3.2.1",
+    "koa-session": "^6.2.0",
+    "koa-session-local": "^1.0.4",
+    "koa-static-server": "^1.5.2",
+    "koa2-weixin-auth": "^1.0.2",
+    "koa3-wechat": "^1.1.9",
+    "md5": "^2.3.0",
+    "mysql2": "^2.2.5",
+    "redis": "^3.1.2",
+    "sequelize": "^6.6.2",
+    "sha1": "^1.1.1",
+    "short-uuid": "^4.1.0",
+    "sqlite3": "^5.0.2",
+    "weixin-pay": "^1.1.7"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  }
+}
